@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+
+  <style>
+    body {
+      text-align: center;
+    }
+
+    p {
+      color: #1a64d6;
+      font-size: xx-large;
+    }
+
+    h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1a64d6;
+      padding-top: 0px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      text-align: center;
+      margin: 1px;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 115%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      
+    }
+    
+    .tomorrow {
+        margin: 0px 10px, 10px, 10px;
+        padding: 30px 150px 30px 150px;
+        b
+    }
+
+    .tomorrow:hover {
+        background-color: #FFFBEF;
+        margin: ;
+        
+    }
+
+    .saturday {
+        margin: 0px 10px, 10px, 10px;
+        padding: 30px 150px 30px 150px;
+    }
+
+    .saturday:hover {
+        background-color: #FFFBEF;
+    }
+
+    .sunday {
+        margin: 0px 10px, 10px, 10px;
+        padding: 30px 150px 30px 150px;
+    }
+
+    .sunday:hover {
+        background-color: #FFFBEF;
+    }
+
+    h4 {
+      font-family: monospace;
+      color: grey;
+      font-size: large;
+      font-weight: 100;
+    }
+
+    .changecity {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        background-color: #1a64d6;
+        color: white;
+        border-color: #1a64d6;
+        border: 1px solid;
+        border-radius: 50px;
+        box-shadow: 4px 4px 10px #F7F7F9;
+        font-size: 15px;
+        padding: 15px;
+        transition: all 200ms ease-in-out;
+    }
+
+    .changecity:hover {
+        color: #1a64d6;
+        background-color: white;
+        cursor: pointer;
+        border-color: #1a64d6;
+    }
+
+    .apples {
+        font-size: xx-large;
+        font-weight: 700;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        padding: 1px 0px 20px 0px;
+    }
+
+    .grapes {
+        font-weight: 100;
+    }
+
+    .banana {
+        font-family: monospace;
+        color: gray;
+        font-weight: 550;
+        font-size: normal;
+        padding: 10 10 10 10;
+    }
+
+    .pineapple {
+        font-weight: 100;
+    }
+
+    .orange {
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        font-family: monospace;
+    }
+
+    .kiwi {
+        font-weight: 100;
+    }
+
+    .berries {
+        font-family: Arial, Helvetica, sans-serif;
+        color: gray;
+        font-family: monospace;
+    }
+
+    .mango {
+        font-weight: 100;
+    }
+  </style>
+
+  <body>
+    <p>⛅</p>
+    <h1>Currently 64<span>&#176</span> in Dallas, TX</h1>
+    <div class="apples">
+        <span class="grapes">43&#176 /</span>  66&#176
+    </div>
+
+    <ul>
+      <li class="tomorrow">🌧 Tomorrow
+        <div class="banana">
+            <br>
+        <span class="pineapple">62&#176 /</span>  78&#176
+      </div>
+      </li>
+    
+      <br />
+      <li class="saturday">🌥 Saturday
+        <div class="orange">
+            <br>
+        <span class="kiwi">56&#176 /</span>  73&#176
+      </div>
+      </li>
+      
+      <br />
+      <li class="sunday">☀️ Sunday
+        <div class="berries">
+            <br>
+        <span class="mango">61&#176 /</span>  77&#176
+      </div>
+      </li>
+      
+    </ul>
+
+    <button class="changecity" type="button">Change City</button>
+    <h4>Coded by Elise Smith</h4>
+  </body>
+</html>
